@@ -17,7 +17,7 @@
 .course-button {
     @apply transition-all duration-300 bg-white border border-[#D6D1F3] hover:border-[#e599a6] hover:bg-gray-100 px-3 py-2 md:px-5 md:py-3 uppercase rounded-full text-sm md:text-lg;
 }
-/*cards*/
+/*courses*/
 .course-left {
     @apply md:col-span-5 col-span-12 md:ml-4 bg-[#2D3142] px-5 py-4 md:rounded-l-xl rounded-xl mb-7 relative flex flex-col h-full sm:mb-10;
 }
@@ -36,4 +36,8 @@
 .bullets{
     @apply flex flex-col gap-y-4;
 }
+.course-right-txt{
+    @apply text-xl text-[#181818];
+}
+
 

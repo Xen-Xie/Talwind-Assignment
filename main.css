@@ -39,6 +39,11 @@
 .course-right-txt{
     @apply text-xl text-[#181818];
 }
-
+.footer-hover{
+    @apply text-[#20484F] text-lg hover:text-red-200 transition-all duration-300;
+}
+.footr-head{
+    @apply font-semibold text-lg text-[#20484F] hover:text-gray-300 transition-all ease-in duration-300;
+}
 
 

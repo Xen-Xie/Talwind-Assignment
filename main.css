@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.numbers{
+    @apply text-[#00FF84] font-bold text-2xl;
+}

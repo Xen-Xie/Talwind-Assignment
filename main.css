@@ -6,9 +6,15 @@
     @apply text-[#00FF84] font-bold text-2xl;
 }
 /*Cards Design*/
+
 .cards{
     @apply md:col-span-6 col-span-12 md:ml-4 bg-[#FFFFFF] shadow-md shadow-gray-400  rounded-lg  px-7 py-5 hover:scale-y-105 hover:shadow-gray-700 transition-all duration-300;
 }
 .card-txt{
     @apply border-[#F44335] border rounded-full px-1.5 py-0.5 font-semibold text-lg mx-3 hover:border-blue-300 hover:text-red-400 transition-all hover:scale-y-90 duration-300 cursor-pointer;
 }
+/*badge buttons*/
+.course-button {
+    @apply transition-all duration-300 bg-white border border-[#D6D1F3] hover:border-[#e599a6] hover:bg-gray-100 px-3 py-2 md:px-5 md:py-3 uppercase rounded-full text-sm md:text-lg;
+}
+

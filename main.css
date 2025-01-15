@@ -17,4 +17,23 @@
 .course-button {
     @apply transition-all duration-300 bg-white border border-[#D6D1F3] hover:border-[#e599a6] hover:bg-gray-100 px-3 py-2 md:px-5 md:py-3 uppercase rounded-full text-sm md:text-lg;
 }
+/*cards*/
+.course-left {
+    @apply md:col-span-5 col-span-12 md:ml-4 bg-[#2D3142] px-5 py-4 md:rounded-l-xl rounded-xl mb-7 relative flex flex-col h-full sm:mb-10;
+}
+.course-right{
+    @apply md:col-span-7 col-span-12 bg-[#ffffff] px-8 rounded-xl md:rounded-r-xl;
+}
+.signup{
+    @apply bg-[#F44335] text-white text-xs font-mono px-5 py-3 rounded-lg hover:bg-red-400 transition-all duration-300;
+}
+.next{
+    @apply bg-[#FFFFFF] text-[#2D3142] text-xs font-mono px-7 py-3 rounded-lg hover:bg-gray-300 transition-all duration-300;
+}
+.right-h{
+    @apply text-[#F9CCC7] font-bold text-lg mb-3;
+}
+.bullets{
+    @apply flex flex-col gap-y-4;
+}
 

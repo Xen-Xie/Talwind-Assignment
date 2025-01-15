@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
 .numbers{
     @apply text-[#00FF84] font-bold text-2xl;
 }
@@ -44,6 +45,7 @@
 }
 .footr-head{
     @apply font-semibold text-lg text-[#20484F] hover:text-gray-300 transition-all ease-in duration-300;
+}
 }
 
 
